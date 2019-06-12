@@ -1,0 +1,63 @@
+body{
+    background-image: url("../images/tropical_bckgr_01.jpg");
+    background-size: cover;
+}
+
+/* nav{
+    display: flex;
+    height: 20%;
+
+} */
+
+.navImage{    
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  
+}   
+
+.navBar{
+    height: 21%;
+    background-color: white;
+}
+
+.navBarImgRow{
+    padding: 0;    
+    height: 100%;
+
+}
+
+.navMenu{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-weight: bold;    
+}
+
+
+#appMenu{
+    top:30%;
+}
+
+#divFaceImg{
+    background-image: url("../images/Beauty\ fashion\ model\ girl\ with\ colorful\ dyed\ hair\ Stock\ Photo\ 06.jpg");
+    background-size: cover;
+    /* display: block; */
+    height: 100%;
+    width: 100%;
+    /* object-fit: contain; */
+    position: absolute;
+    /* z-index: 1; */
+    top:20%;
+}
+
+.container-fluid{
+    height: 100%;
+    position: absolute;
+   padding-left: 0;
+    
+}
+
+#divHeading{
+    position: absolute;
+    bottom: 0;
+}
