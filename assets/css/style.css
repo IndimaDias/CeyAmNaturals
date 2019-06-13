@@ -40,13 +40,10 @@ body{
 
 #divFaceImg{
     background-image: url("../images/Beauty\ fashion\ model\ girl\ with\ colorful\ dyed\ hair\ Stock\ Photo\ 06.jpg");
-    background-size: cover;
-    /* display: block; */
+    background-size: cover;    
     height: 100%;
     width: 100%;
-    /* object-fit: contain; */
     position: absolute;
-    /* z-index: 1; */
     top:20%;
 }
 
@@ -60,4 +57,56 @@ body{
 #divHeading{
     position: absolute;
     bottom: 0;
+    color: blue;
+}
+
+#divPromo{
+    background-image: url("../images/kisspng-orange-juice-cocktail-lemonade-orange-lemon-5a82ddaf1b3cd3.7126983115185258711116.png");
+    background-size: contain; 
+    background-repeat: no-repeat;   
+    background-color: rgba(255, 131, 49, 0.986);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:80%;
+}
+
+#divSection1 {
+    /* top:20%; */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+}
+
+#divSection2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:50%;
+    margin-left: 0;
+}
+
+.imgPromo{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    margin-top: 30%;
+}
+
+.heading1{
+    color:white;
+    font-weight: 600;
+}
+
+.headingMain{
+    color: white;
+}
+
+.linkAmazon{
+    font-size: 25px;
+    
+    /* top : 80%; */
+    bottom: 0;
+   
 }
