@@ -71,7 +71,7 @@ body{
     top:80%;
 }
 
-#divSection1 {
+#divSection1{
     /* top:20%; */
     position: absolute;
     height: 100%;
@@ -79,7 +79,7 @@ body{
     margin-left: 0;
 }
 
-#divSection2{
+#divSection2 {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -108,5 +108,29 @@ body{
     
     /* top : 80%; */
     bottom: 0;
+   
+}
+
+#divSection3{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:80%;
+    margin-left: 0;
+}
+
+#divInfo{
+    background-color: rgba(248, 246, 96, 0.986);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:160%;
+}
+
+.imgInfo{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    margin-top:30%;
    
 }
